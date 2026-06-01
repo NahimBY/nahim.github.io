@@ -1,0 +1,47 @@
+baseUrl = "https://nahim.github.io/"
+title = "JNBY"
+defaultContentLanguage = "es"
+
+[module]
+  [[module.imports]]
+    path = "github.com/luizdepra/hugo-coder"
+
+[languages.es]
+  locale = "es"
+  label = "Español"
+  title = "< JNBY />"
+  [languages.es.params]
+    author = "Julián Nahim Buenfil Yunes"
+    info = "Estudiante de Ingeniería de Software"
+    description = "Mi sitio web personal y portafolio profesional"
+    keywords = "software, engineering, flutter, nodejs, desarrollador"
+    avatarUrl = "images/nahim-funko.png"
+
+[params]
+  colorScheme = "auto"
+  hideColorSchemeToggle = false
+  customCSS = ["css/custom.css"]
+
+[[params.social]]
+  name = "GitHub"
+  icon = "fa-brands fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/NahimBY"
+
+[[params.social]]
+  name = "LinkedIn"
+  icon = "fa-brands fa-linkedin fa-2x"
+  weight = 2
+  url = "https://www.linkedin.com/in/julian-buenfil-7a7956347/"
+
+[[params.social]]
+  name = "Instagram"
+  icon = "fa-brands fa-instagram fa-2x"
+  weight = 3
+  url = "https://www.instagram.com/nahimgoeswild/"
+
+[[params.social]]
+  name = "Email"
+  icon = "fa-solid fa-envelope fa-2x"
+  weight = 4
+  url = "mailto:nahim.yunes@gmail.com"
